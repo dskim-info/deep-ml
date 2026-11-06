@@ -9,10 +9,15 @@ def calculate_dot_product(vec1, vec2):
 	Returns:
 		The dot product of the two vectors.
 	"""
-	# Your code here
-	res = 0
-	
-	for n1, n2 in zip(vec1, vec2):
-		res += n1 * n2
 
-	return res
+	# res = 0
+	
+	# for n1, n2 in zip(vec1, vec2):
+	# 	res += n1 * n2
+
+	# return res
+
+	return np.dot(vec1, vec2)
+
+
+
